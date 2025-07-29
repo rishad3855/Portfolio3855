@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Rishad TP | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5; /* Light gray */
+      color: #222;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .accent {
+      color: #4b0082;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .navbar ul li {
+      font-weight: 500;
+    }
+
+    .navbar .btn {
+      background: #4b0082;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8rem 2rem 4rem;
+      min-height: 100vh;
+      background-color: #f5f5f5;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h5 {
+      color: #888;
+      text-transform: uppercase;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin: 1rem 0;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .hero-text .btn {
+      background: #4b0082;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    .hero-img img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      padding: 5rem 2rem;
+      background-color: #ffffff;
+    }
+
+    h2 {
+      color: #4b0082;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: square;
+      max-width: 700px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    .job, .project {
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    .job h3, .project h3 {
+      color: #4b0082;
+    }
+
+    .contact p {
+      text-align: center;
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 2rem 0;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn" href="resume.pdf" download> CV</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <header class="navbar">
+    <div class="logo">My<span class="accent">Portfolio</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn" href="resume.pdf" download>Download CV</a></li>
+      </ul></element>
+    </nav>
+  </header> -->
+
+  <section class="hero" id="home"> 
+    <div class="hero-text">
+        
+      <h5>DevOps Engineer</h5>
+      <h1 class="typing-soft">Hi, I'm <span class="accent">Mohammed Rishad TP</span></h1>
+
+      <p>CI/CD • AWS • Docker • Kubernetes • Terraform • Linux • GitHub Actions</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <div class="hero-img">
+      <img src="profile.jpg" alt="Profile Photo">
+    </div>
+  </section>
+  <section class="about" id="Education">
+    <h2>Education</h2>
+    <div class="edu-wrapper">
+      <div class="edu-block">
+        <h3>Masters in Cloud Computing</h3>
+        <p><strong>Jetking Kochi</strong> | 2023 – 2024</p>
+      </div>
+      <div class="edu-block">
+        <h3>Bachelor of Computer Application</h3>
+        <p><strong>University of Calicut</strong> | 2020 – 2023</p>
+      </div>
+      <div class="edu-block">
+        <h3>Higher Secondary – Computer Science</h3>
+        <p><strong>Kerala Board</strong> | 2018 – 2020</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about" id="skills">
+    <div class="edu-wrapper">
+        <div class="edu-block">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>CI/CD, Jenkins, GitHub Actions, Ansible</li>
+      <li>Docker, Kubernetes, Terraform, AWS, GCP</li>
+      <li>Bash, basic Python, Linux (Red Hat, Ubuntu), Windows Server</li>
+      <li>Networking, DNS, DHCP, AD, VPN</li>
+      <li>Git, VMware, Hyper-V</li>
+    </ul>
+    </div></div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="contact-card">
+        <div class="contact-info">
+    <h2>Experience</h2>
+    <div class="job">
+        <div class="edu-wrapper">
+            <div class="edu-block">
+      <h3>System Engineer Intern – Netsoft Consulting</h3>
+      <p>Aug 2024 – Dec 2024</p>
+      <ul>
+        <li>Assisted in domain migration for Kotak Insurance (100+ systems).</li>
+        <li>Handled VPN, Office 365, Outlook, and OS installations.</li>
+        <li>Collaborated with engineers on monitoring and automation.</li>
+      </ul>
+    </div>
+    </div></div></div></div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="edu-wrapper">
+        <div class="edu-block">
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <h3>Anomaly Detection System</h3>
+      <p>Detects suspicious behavior like explosion, robbery, or drug use from surveillance video using face recognition and action detection.</p>
+    </div></div></div>
+  </section>
+
+  <section class="certifications">
+    <div class="edu-wrapper">
+        <div class="edu-block">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python and Android Project Certificate – 2022–23</li>
+      <li><a href="https://www.credly.com/users/rishad-tp" target="_blank">Credly Profile</a></li>
+    </ul></div></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-card">
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:rishadameen@outlook.com">rishadameen@outlook.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+919562617670">+91 9562617670</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/rishadtp" target="_blank">rishadtp</a></p>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Mohammed Rishad TP. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
